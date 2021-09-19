@@ -10,9 +10,13 @@
 <body>
 
 	<h1>Iowa County Harvest App</h1>
-
-
-	<h3>DEBUG:</h3>
+	
+	<a href="createCounty.jsp">Create New County</a><br/>
+		
+	<form class="form" action="getCounty.do" method="GET">
+		County ID: <input type="text" name="countyId" />
+		<input class="btn btn-primary" type="submit" value="Show County" />
+	</form>
 
 	<table class="table thead-dark table-striped table-hover">
 		<thead>

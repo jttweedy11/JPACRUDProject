@@ -7,5 +7,6 @@ import com.skilldistillery.jpacrud.entities.County;
 public interface CountyDAO {
 
 		County findById(int countyId);
+		County create(County county);
 		List<County> findAll();
 }

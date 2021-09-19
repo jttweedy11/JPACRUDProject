@@ -31,4 +31,12 @@ public class CountyDaoImpl implements CountyDAO{
 		return em.createQuery(jpql, County.class).getResultList();
 	}
 
+	@Override
+	public County create(County county) {
+		// TODO Auto-generated method stub
+		em.persist(county);
+		em.flush();
+		return county;
+	}
+
 }
