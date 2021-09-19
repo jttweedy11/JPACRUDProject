@@ -26,7 +26,6 @@ public class CountyDaoImpl implements CountyDAO{
 	@Override
 	public List<County> findAll() {
 		// TODO Auto-generated method stub
-		List<County> counties;
 		String jpql = "Select c from County c";
 		return em.createQuery(jpql, County.class).getResultList();
 	}

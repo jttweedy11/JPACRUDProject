@@ -1,6 +1,8 @@
 package com.skilldistillery.jpacrud.controllers;
 
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,8 +21,14 @@ public class CountyController {
 	
 	@RequestMapping(path = {"/", "home.do"})
 	public String home(Model model) {
-		model.addAttribute("county", dao.findAll());
+//		model.addAttribute("county", dao.findAll());
 		return "home";
+	}
+	@RequestMapping(path= {"getAllCounty.do"})
+	public String showAll(Model model) {
+		List<County> c = dao.findAll();
+		model.addAttribute("county", c);
+		return "showResults";
 	}
 	
 	@RequestMapping(path = {"getCounty.do"})

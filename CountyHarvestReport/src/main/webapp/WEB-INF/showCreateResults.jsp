@@ -9,5 +9,7 @@
 </head>
 <body>
 	<h5>Your entity was created.</h5>
+
+	<a href="home.do">Return Home</a>
 </body>
 </html>

@@ -13,6 +13,10 @@
 	
 	<a href="createCounty.jsp">Create New County</a><br/>
 		
+	<form class="form" action="getAllCounty.do" method="GET">
+		<input class="btn btn-primary" type="submit" value="Show All Counties" />
+	</form>
+	
 	<form class="form" action="getCounty.do" method="GET">
 		County ID: <input type="text" name="countyId" />
 		<input class="btn btn-primary" type="submit" value="Show County" />
