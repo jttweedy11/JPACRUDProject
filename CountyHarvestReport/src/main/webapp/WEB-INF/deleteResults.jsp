@@ -8,9 +8,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Search Results:</h2>
+	<h2>The following County was deleted</h2>
 
-	<table class="table thead-dark table-striped table-hover">
+	<table>
 		<thead>
 			<tr>
 				<th>Id</th>
@@ -21,28 +21,21 @@
 				<th>Button Bucks</th>
 				<th>Shed Bucks</th>
 				<th>Total Deer</th>
-				<th>Edit</th>
 			</tr>
 		</thead>
-
 		<tbody>
-			<c:forEach var="c" items="${county}">
-				<tr>
-					<td>${c.id }</td>
-					<td>${c.countyName }</td>
-					<td>${c.doe }</td>
-					<td>${c.doeFawn }</td>
-					<td>${c.antleredBuck }</td>
-					<td>${c.buttonBuck }</td>
-					<td>${c.shedBuck }</td>
-					<td>${c.totalDeer }</td>
-					<td><a href="deleteCounty.do?countyId=${c.id}">Delete County</a></td>
-				</tr>
-			</c:forEach>
+			<tr>
+				<td>${county.id }</td>
+				<td>${county.countyName }</td>
+				<td>${county.doe }</td>
+				<td>${county.doeFawn }</td>
+				<td>${county.antleredBuck }</td>
+				<td>${county.buttonBuck }</td>
+				<td>${county.shedBuck }</td>
+				<td>${county.totalDeer }</td>
+			</tr>
 		</tbody>
-	</table>
-	
+	</table><br>
 	<a href="home.do">Return Home</a>
-
 </body>
 </html>

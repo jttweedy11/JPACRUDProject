@@ -9,4 +9,5 @@ public interface CountyDAO {
 		County findById(int countyId);
 		County create(County county);
 		List<County> findAll();
+		County delete(County county);
 }

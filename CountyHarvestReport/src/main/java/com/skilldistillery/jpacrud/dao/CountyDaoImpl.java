@@ -38,4 +38,12 @@ public class CountyDaoImpl implements CountyDAO{
 		return county;
 	}
 
+	@Override
+	public County delete(County county) {
+		// TODO Auto-generated method stub
+		em.remove(county);
+		em.flush();
+		return county;
+	}
+
 }

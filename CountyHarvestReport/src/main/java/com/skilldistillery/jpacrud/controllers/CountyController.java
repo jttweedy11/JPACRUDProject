@@ -36,6 +36,17 @@ public class CountyController {
 		model.addAttribute("county", dao.findById(countyId));
 		return "showCounty";
 	}
+	@RequestMapping(path = {"deleteCounty.do"}, method = RequestMethod.GET)
+	public String deleteCounty(Integer countyId, Model model) {
+		County c1 = null;
+		c1 = dao.findById(countyId);
+		if(c1!= null) {
+			dao.delete(c1);
+			model.addAttribute("county", c1);
+		}
+		return "deleteResults";
+	}
+	
 	@RequestMapping(path = {"createCounty.do"}, method = RequestMethod.POST)
 	public String createCounty(County county, Model model) {
 		County c = dao.create(county);
