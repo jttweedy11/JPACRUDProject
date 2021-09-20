@@ -6,7 +6,7 @@
 
 ### Using the app
 
-* The user will be first come to a welcome page with multiple options.
+The user will be first come to a welcome page with multiple options.
 
 
 * Look up County by id.
