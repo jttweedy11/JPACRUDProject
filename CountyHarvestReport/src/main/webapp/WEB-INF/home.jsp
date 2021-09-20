@@ -5,6 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="/css/main.css">
 <title>County Harvest Site</title>
 </head>
 <body>

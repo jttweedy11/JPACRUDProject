@@ -5,6 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="/css/main.css">
 <title>County Search Results</title>
 </head>
 <body>
@@ -34,8 +35,8 @@
 				<td>${county.buttonBuck }</td>
 				<td>${county.shedBuck }</td>
 				<td>${county.totalDeer }</td>
-				<td><a href="deleteCounty.do?countyId=${county.id}">Delete
-						County</a></td>
+				<td><a href="deleteCounty.do?countyId=${county.id}">Delete County</a></td>
+				<td><a href="countyToEdit.do?countyId=${county.id}">Edit County</a></td>
 			</tr>
 		</tbody>
 	</table>

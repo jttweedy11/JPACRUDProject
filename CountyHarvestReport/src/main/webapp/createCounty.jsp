@@ -5,6 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="/css/main.css">
 <title>Create County</title>
 </head>
 <body>

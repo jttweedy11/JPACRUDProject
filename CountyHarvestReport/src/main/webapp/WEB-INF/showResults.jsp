@@ -5,6 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="/css/main.css">
 <title>Insert title here</title>
 </head>
 <body>
@@ -13,16 +14,16 @@
 	<table class="table thead-dark table-striped table-hover">
 		<thead>
 			<tr>
-				<th>Id</th>
-				<th>County Name</th>
-				<th>Does</th>
-				<th>Doe Fawn</th>
-				<th>Antlered Bucks</th>
-				<th>Button Bucks</th>
-				<th>Shed Bucks</th>
-				<th>Total Deer</th>
-				<th>Delete</th>
-				<th>Edit</th>
+				<td>Id</td>
+				<td>County Name</td>
+				<td>Does</td>
+				<td>Doe Fawn</td>
+				<td>Antlered Bucks</td>
+				<td>Button Bucks</td>
+				<td>Shed Bucks</td>
+				<td>Total Deer</td>
+				<td>Delete</td>
+				<td>Edit</td>
 			</tr>
 		</thead>
 

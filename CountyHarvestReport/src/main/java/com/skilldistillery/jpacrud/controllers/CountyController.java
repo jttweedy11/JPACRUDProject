@@ -73,11 +73,6 @@ public class CountyController {
 		c.setButtonBuck(county.getButtonBuck());
 		c.setShedBuck(county.getShedBuck());
 		c.setTotalDeer(county.getTotalDeer());
-		System.out.println("Printing county");
-		System.out.println(county);
-//		County c = dao.updateCounty(county);
-		System.out.println("Printing c");
-		System.out.println(c);
 		County cpass = dao.updateCounty(c);
 		model.addAttribute("county", cpass);
 		return "updatedCounty";
