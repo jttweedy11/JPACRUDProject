@@ -21,6 +21,7 @@
 				<th>Button Bucks</th>
 				<th>Shed Bucks</th>
 				<th>Total Deer</th>
+				<th>Delete</th>
 				<th>Edit</th>
 			</tr>
 		</thead>
@@ -37,6 +38,7 @@
 					<td>${c.shedBuck }</td>
 					<td>${c.totalDeer }</td>
 					<td><a href="deleteCounty.do?countyId=${c.id}">Delete County</a></td>
+					<td><a href="countyToEdit.do?countyId=${c.id}">Edit County</a></td>
 				</tr>
 			</c:forEach>
 		</tbody>

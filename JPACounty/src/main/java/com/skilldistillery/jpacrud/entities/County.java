@@ -46,7 +46,7 @@ public class County {
 	public Integer getDoe() {
 		return doe;
 	}
-	public void setDoes(Integer doe) {
+	public void setDoe(Integer doe) {
 		this.doe = doe;
 	}
 	public Integer getDoeFawn() {

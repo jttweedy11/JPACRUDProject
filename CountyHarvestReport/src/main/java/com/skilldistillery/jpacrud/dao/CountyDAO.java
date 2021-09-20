@@ -10,4 +10,5 @@ public interface CountyDAO {
 		County create(County county);
 		List<County> findAll();
 		County delete(County county);
+		public County updateCounty(County county);
 }

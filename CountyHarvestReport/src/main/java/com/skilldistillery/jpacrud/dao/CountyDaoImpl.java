@@ -45,5 +45,12 @@ public class CountyDaoImpl implements CountyDAO{
 		em.flush();
 		return county;
 	}
+	
+	@Override
+	public County updateCounty(County county) {
+		em.persist(county);
+		em.flush();
+		return county;
+	}
 
 }
