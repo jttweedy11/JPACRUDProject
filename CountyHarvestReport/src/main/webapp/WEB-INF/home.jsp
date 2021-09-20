@@ -20,7 +20,7 @@
 	</form>
 
 	<form class="form" action="getCounty.do" method="GET">
-		County ID: <input type="text" name="countyId" /> <input
+		Search by County ID: <input type="text" name="countyId" /> <input
 			class="btn btn-primary" type="submit" value="Show County" />
 	</form>
 

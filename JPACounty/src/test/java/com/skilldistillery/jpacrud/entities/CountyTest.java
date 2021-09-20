@@ -45,6 +45,12 @@ class CountyTest {
 	void test() {
 		assertNotNull(county);
 		assertEquals("Adair", county.getCountyName());
+		assertEquals(540, county.getDoe());
+		assertEquals(22, county.getDoeFawn());
+		assertEquals(556, county.getAntleredBuck());
+		assertEquals(73, county.getButtonBuck());
+		assertEquals(5, county.getShedBuck());
+		assertEquals(1196, county.getTotalDeer());
 		
 	}
 
